@@ -5,7 +5,7 @@ import { useQuery, keepPreviousData } from "@tanstack/react-query";
 import css from "./NotesPage.module.css";
 import type { NoteTag } from "@/types/note";
 
-import { fetchNotes } from "@/lib/api";
+import { fetchNotes } from "@/lib/api/clientApi";
 
 import NoteList from "@/components/NoteList/NoteList";
 // import Modal from "@/components/Modal/Modal";

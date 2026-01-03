@@ -6,7 +6,7 @@ import type { NoteFormValues } from "../../types/note";
 import css from "./NoteForm.module.css";
 import { useRouter } from "next/navigation";
 import { useMutation } from "@tanstack/react-query";
-import { createNote } from "../../lib/api";
+import { createNote } from "../../lib/api/clientApi";
 import toast from "react-hot-toast";
 import { useNoteDraft } from "@/lib/store/noteStore";
 
