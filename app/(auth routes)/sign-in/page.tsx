@@ -38,7 +38,7 @@ export default function SignIn() {
           "Oops... Some error :("
       );
     } finally {
-      setIsLoading(true);
+      setIsLoading(false);
     }
   };
 

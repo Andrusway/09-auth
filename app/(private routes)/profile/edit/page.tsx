@@ -34,7 +34,7 @@ export default function ProfileEdit() {
       }
     };
     fetchUser();
-  }, [[user, setUser, clearUser]]);
+  }, [user, setUser, clearUser]);
 
   const handleUsernameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setNewUsername(e.target.value);
